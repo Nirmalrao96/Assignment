@@ -1,0 +1,118 @@
+.main{
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+
+}
+.Loginmain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 80vh;
+    background-color: rgba(219, 204, 204, 0.893);
+}
+.left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 5rem;
+    margin: 0;
+}
+h3{
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+}
+.right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.login{
+    width: 450px;
+    height: max-content;
+    border: 1px solid gray;
+    border-radius: 16px;
+    box-shadow: 2px 2px 2px gray;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+form{
+    width: 100%;
+    height: fit-content;
+}
+h6{
+  font-size: 1rem;
+  font-weight: bolder;
+  margin: 2px;
+  margin-right:40%;
+}
+input{
+    margin-bottom: 10px;
+    margin-left: 20px;
+    width: 70%;
+    height: 30px;
+    border-radius: 8px;
+}
+input[type='submit']{
+    background-color: aqua;
+}
+.switch{
+    width: 450px;
+    height: max-content;
+    border: 1px solid gray;
+    border-radius: 16px;
+    box-shadow: 2px 2px 2px gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.switch h5{
+    margin-bottom: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+    margin-bottom: 10px;
+}
+@media (max-width: 950px){
+    h1{
+        font-size: 3rem;
+    }
+    .left{
+        width: 40%;
+    }
+}
+@media (max-width: 800px){
+    .Loginmain{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .login{
+        width: 80vw;
+    }
+    .switch{
+        width: 80vw;
+    }
+}
+

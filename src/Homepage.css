@@ -1,0 +1,29 @@
+.homepage {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-info {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.user-info h1 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.user-info p {
+    margin: 5px 0;
+    font-size: 18px;
+}
